@@ -5,10 +5,10 @@ DATABASE_NAME = "US_VISA"
 
 COLLECTION_NAME = "visa_data"
 
-MONGOBD_URL_KEY = "MONGODB_URL"
+MONGODB_URL_KEY = "MONGODB_URL"
 
 PIPELINE_NAME: str = "usvisa"
-ARTIFACT_DIR: str = "artifact"
+ARTIFACT_DIR: str = "artifacts"
 
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
